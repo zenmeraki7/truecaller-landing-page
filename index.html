@@ -325,6 +325,106 @@
         .bar:nth-child(4) {
             height: 50%;
         }
+
+        /* next section */
+
+        .main-heading {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .highlight {
+            color: #00FF99;
+        }
+        .sub-heading {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .content {
+            line-height: 1.8;
+        }
+        .btn-custom {
+            background-color: #00FF99;
+            color: #1b1b1b;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        /* next section */
+        .main-container1 {
+            /* background-color: #282828; */
+            margin-top: 100px;
+            padding: 50px;
+            border-radius: 10px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+            text-align: center;
+        }
+
+        .why {
+            margin-bottom: 30px;
+            color: #fff; /* Assuming white text for h1 */
+        }
+
+        .benefit-card {
+            background-color: #383838;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px;
+            width: 300px;
+            display: inline-block;
+            color: #fff; /* Assuming white text for card content */
+        }
+
+        .benefit-card h2 {
+            margin-bottom: 10px;
+        }
+
+        .benefit-card p {
+            margin-bottom: 0;
+        }
+
+        /* Add some animation for the cards */
+        .benefit-card {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .join {
+            text-align: center;
+            padding: 150px;
+        }
+
+        
+
+        .join-text {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: #fff; /* Assuming white text for join-text */
+        }
+
+        .offer-text {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #fff; /* Assuming white text for offer-text */
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn1 {
+            background-color: #00FF99; /* Green background */
+            border: none;
+            border-radius: 5px;
+            padding: 15px 30px;
+            margin: 0 10px;
+            color: #000; /* Black text on green button */
+            text-decoration: none;
+            font-weight: bold;
+        } 
     </style>
 </head>
 
@@ -426,7 +526,7 @@
 
         <!-- Main Content Section -->
         <div class="d-flex justify-content-center align-items-start position-relative">
-            <!-- Left Section (Transaction Cards with Steps) -->
+            
             <div class="wallet-system position-relative">
                 <!-- DeFi Wallet System +A3.7 -->
                 <div class="wallet-info position-absolute">
@@ -487,9 +587,6 @@
         </div>
     </div>
 
-
-
-
     <!-- next section  -->
 
     <div class="hero-section">
@@ -547,10 +644,69 @@
     </div>
 
     <!-- next setion -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Column for Heading -->
+            <div class="col-md-6 d-flex align-items-center">
+                <h1 class="main-heading">
+                    Our Capital<br>
+                    <span class="highlight">Your Success</span>
+                </h1>
+            </div>
+            <!-- Right Column for Content -->
+            <div class="col-md-6">
+                <div class="content">
+                    <h2 class="sub-heading">What is FXology?</h2>
+                    <p>Trade on Forex and other markets with capital up to <span class="highlight">640,000 USD!</span></p>
+                    <p>We provide unique trading programs for Forex traders, based on selecting the best options to work together. With training accounts, you can trade and earn commissions without the risk of losing your own funds.</p>
+                    <p>You can choose from a wide variety of training programs tailored to your experience level. Whether you're a rookie, advanced, or experienced trader, you will find the most perfectly suited program.</p>
+                    <button class="btn btn-custom">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- next section -->
+    <div class="main-container1">
+        <h1 class="why">Why choose our Prop Trading Company?</h1>
+
+        <div class="benefit-card">
+            <h2>No Time Limit Prop Firm</h2>
+            <p>Traders have the freedom to reach their funding goals without the pressure of strict time constraints. Trade at your own pace and implement your strategies with flexibility.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h2>Fast Progress</h2>
+            <p>Prove to us you have the ability, and we will return up to 200% of your fees, raise your trading account, raise your provision level, or give you the opportunity to repeat a training phase for free.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h2>Unique Programs</h2>
+            <p>You are guaranteed satisfaction with us - we want our traders to succeed and be one step ahead. That's why we offer the widest range of training programs and benefits available.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h2>A Modern Platform</h2>
+            <p>We offer a new, modern platform ALL in one, based on charts from a trading view and connected directly to the liquidity providers. This way, your trading will always be simple and clear.</p>
+        </div>
+    </div>
+
+    <!-- next section -->
+    <div class="container join">
+        
+        <h2 class="join-text"><b>Join us today and start making money with</b> </h2>
+        <p class="offer-text">Our biggest priority is for you to achieve your best! That's why we have the widest offer and best terms possible for mutual success in prop trading.</p>
+        <div class="buttons">
+            <a href="#" class="btn1">Try for free</a>
+            <a href="#" class="btn1">I want to join</a>
+        </div>
+    </div>
+
+
 
     
 
-    <footer class="footer">
+    <footer class="footer pt-5">
         <p>&copy; 2025 Fxology. All rights reserved.</p>
     </footer>
 
